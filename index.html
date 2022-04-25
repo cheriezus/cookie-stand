@@ -1,139 +1,109 @@
-
-/*
-// Stores the min/max hourly customers, and the average cookies per customer, in object properties-COMPLETED 
-
-// Uses a method of that object to generate a random number of customers per hour. Objects/Math/random
-/*
-const seattle = {
-  name: 'Seattle',
-  min: 23,
-  max: 65,
-  avg: 6.3,
-  rndm: 0,
-
-  getRandomCustomerAmount: function () {
-   
-    seattle.rndm = randomCust(23, 65) + ' customers';
-    
-  }
-};
-seattle.getRandomCustomerAmount();
-
-
-
-
-function randomCust (min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
-}
-
-
-const tokyo = {
-  name: 'Tokyo',
-  min: 3,
-  max: 24,
-  avg: 1.2,
-
-}
-
-const dubai = {
-  name: 'Dubai',
-  min: 11,
-  max: 38,
-  avg: 3.7,
-
-}
-
-const paris = {
-  name: 'Paris',
-  min: 20,
-  max: 38,
-  avg: 2.3,
-
-}
-
-const lima = {
-  name: 'Lima',
-  min: 2,
-  max: 16,
-  avg: 4.6,
-
-}*/
-
-
 <!DOCTYPE html>
 <html lang="en">
-
+  <link rel="stylesheet" href="css/index.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    </style>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Events Demo</title>
+  <title>Salmon Cookies</title>
 </head>
-
-<body>
-  <button id="btn-1">Click Me!</button>
-  <button id="btn-2">Click Me!</button>
-
-  <form id="my-form">
-    <fieldset>
-      <legend>User Form</legend>
-      <label for="location">User Name</label>
-      <input type="text" name="userName" id="user-name">
-      <label for="user-age">User Age</label>
-      <input type="number" name="age" id="user-age">
-      <button>Submit</button>
-    </fieldset>
-  </form>
-
-  <form id="cookie-stand-form">
-    <fieldset>
-      <legend>Create Cookie Stand</legend>
-      <label for="location">Location</label>
-      <input type="text" name="location" required>
-
-      <label for="minCustomers">Minimum Customers Per Hour</label>
-      <input type="number" name="minCustomers" required>
-
-      <label for="maxCustomers">Maximum Customers Per Hour</label>
-      <input type="number" name="maxCustomers" required>
-
-      <label for="avgCookies">Average Cookies Per Customer</label>
-      <input type="number" name="avgCookies" step="0.1" required>
-
-      <button>Submit</button>
-    </fieldset>
+<body id="body">
+  <nav class="navcontainer">
+      <h1 class="nav1"> Salmon Cookies</h1>
+       <a class="nav2" href="sales.html">Sales</a>
+  </nav>
 
 
-  </form>
-  <div class="container">
+  <div class="img-container1">
+<img src="img/chinook.jpg" alt="Chinook">
+</div>
+ <article>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quam provident rerum quidem, cupiditate neque voluptatum. Veritatis repellendus cum adipisci corrupti! Molestiae adipisci error minus nemo atque omnis praesentium obcaecati!
+Eos, pariatur? Ad exercitationem ab maxime ipsum a necessitatibus reiciendis. Quas laudantium iste facere eveniet perferendis voluptates eius quaerat dolorum debitis unde veniam fuga, aperiam ducimus culpa? Quae, id perferendis!
+Provident voluptates incidunt a, culpa, ipsum alias, ipsam deserunt distinctio placeat repellat ab eligendi? Vel facere similique optio et laudantium saepe accusantium deserunt aliquid hic, officia illum quisquam ratione autem?
+Sunt dolores tempore quia, ducimus veritatis quaerat enim commodi cum tenetur corrupti aliquam quo ullam excepturi consequuntur magni perferendis. Aperiam soluta quod et numquam quisquam aliquid iusto cupiditate natus tempore.</article>
+<div class="img-container2">
+  <img class="cutter" src="img/cutter.jpeg" alt="Cutter">
+<img src="img/fish.jpg" alt="Fish">
+<img class="cookie" src="img/frosted-cookie.jpg" alt="Frosted">
+</div>
 
+<div id="img-container3">
+<img class="img3" src="img/family.jpg" alt="Family">
+
+<img class="img4" src="img/salmon.png" alt="Salmon">
+</div>
+
+
+  <div class="locations">
+
+    <h2 class="location0">Locations:</h2>
+    
+<div>
+    <ul class="seattle">
+      <li><h2 class="location1">Seattle</h2></li>
+      <li><h4>Hours: 9am-5pm</h4></li>
+      <li>555-555-5555</li>
+      <li>address</li>
+      <li>city</li>
+      <li>state country</li>
+      <li>zipcode</li>
+    </ul>
   </div>
-  <script src="app.js"></script>
-</body>
 
+  <div>
+    <ul>
+      <li> <h2 class="location2">Tokyo</h2></li>
+      <li><h4>Hours: 9am-5pm</h4></li>
+      <li>555-555-5555</li>
+      <li>address</li>
+      <li>city</li>
+      <li>state country</li>
+      <li>zipcode</li>
+    </ul>
+  </div>
+
+  <div>
+    
+    <ul>
+      <h2 class="location3">Dubai</h2>
+      <li><h4>Hours: 9am-5pm</h4></li>
+      <li>555-555-5555</li>
+      <li>address</li>
+      <li>city</li>
+      <li>state country</li>
+      <li>zipcode</li>
+    </ul>
+  </div>
+
+  <div>
+   
+    <ul>
+      <h2 class="location4">Paris</h2>
+      <li><h4>Hours: 9am-5pm</h4></li>
+      <li>555-555-5555</li>
+      <li>address</li>
+      <li>city</li>
+      <li>state country</li>
+      <li>zipcode</li>
+    </ul>
+  </div>
+
+  <div>
+  
+    <ul>
+      <h2  class="location5">Lima</h2>
+      <li><h4>Hours: 9am-5pm</h4></li>
+      <li>555-555-5555</li>
+      <li>address</li>
+      <li>city</li>
+      <li>state country</li>
+      <li>zipcode</li>
+    </ul>
+  </div>
+</div>
+  </div>
+
+</body>
 </html>
 
 
-
-
-
-
-
-
-
-/*
-
-Cookie Stand object will have ...
-
-{
-  title: "The City/Location",
-  minCustomers: int,
-  maxCustomers: int,
-  avgCookiesPerCustomer: float
-
-  generateRandomCustomersPerHour: function/method
-  randomCustomersPerHour: array of 15ish items 
-}
-
-*/
-<script src="js/app.js"></script>

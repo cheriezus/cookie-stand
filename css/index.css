@@ -1,0 +1,89 @@
+
+
+/* image centered in fron with background from w3schools */
+
+body {
+  background-color: #738ab2; 
+}
+.navcontainer {
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Pacifico', cursive;
+    color: #a33d17;
+}
+
+/* border style from w3schools */
+
+.img-container1 {
+display:flex;
+justify-content: center;
+align-items: center;
+margin-top: 5%;
+
+ }
+ h2 {flex:display;
+flex-wrap: nowrap;}
+
+.img-container1 img { border-style: groove;
+  order: 1;
+    flex: 0 1 auto;
+    align-self: auto; 
+    
+}
+
+.img-container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  
+  }
+
+
+  #img-container3{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 3%;
+    }
+
+    .locations{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    }
+
+ul {
+  list-style: none;
+}
+
+h2,h1{
+  font-family: 'Pacifico', cursive;
+  color: #a33d17;
+}
+
+article {
+border-style: dashed;
+  font-family: Georgia, Times, "Times New Roman", serif;
+margin: 3% 10% 3% 10%;
+color: #013220;
+padding: 1%;
+  
+}
+li{
+  font-family: Georgia, Times, "Times New Roman", serif;
+ color: #013220;
+}
+
